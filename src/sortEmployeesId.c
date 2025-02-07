@@ -14,6 +14,7 @@ void sortEmployeesId(struct employee * headLL) {
   int tempNum; //used to swap numDependents
   char ** tempDependents; //used to swap dependents
 
+	
   if (num > 1) {
     //if num == 0, countEmployees already outputs that list is empty and we return from function
     //if num == 1, no need to sort the list and we return from function
